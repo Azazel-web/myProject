@@ -1,0 +1,22 @@
+@import 'normalize.scss';
+@import 'var.scss';
+
+
+.wrapper{
+   margin: 0 auto;
+}
+.accardion{
+   margin-bottom: 10px;
+}
+.accardion__title{
+   border: 1px solid black;
+}
+.accardion__content {
+   border: 1px solid black;
+   border-top: none;
+   height: 100px;
+   display: none;
+   background-color: $white;
+   padding: 10px;
+}
+
