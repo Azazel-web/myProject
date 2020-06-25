@@ -1,7 +1,11 @@
 @import 'normalize.scss';
 @import 'var.scss';
 
-
+@font-face {
+   font-style: normal;
+   font-weight: bold;
+   src: url('../../dest/fonts/');
+}
 .wrapper{
    margin: 0 auto;
 }
@@ -16,7 +20,7 @@
    border-top: none;
    height: 100px;
    display: none;
-   background-color: $white;
+   background-color: #ccc;
    padding: 15px;
 }
 
