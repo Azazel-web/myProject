@@ -1,0 +1,32 @@
+.founder{
+   background-color: #f6fafd;
+   margin-bottom: 117px;
+}
+.founder__inner {
+   padding-top: 34px;
+   display: flex;
+   align-items: center;
+}
+.founder__photo {
+   padding-left: 100px;
+   flex-shrink: 0;
+}
+.founder__content {
+   padding-left: 55px;
+}
+.founder__text {
+   font-size: 24px;
+   font-weight: 400;
+   line-height: 40px;
+   color: #414141;
+}
+.founder__title {
+   padding-top: 30px;
+   font-size: 20px;
+   font-weight: 400;
+   color: #414141;
+   & span {
+      font-size: 24px;
+      font-weight: 700;
+   }
+}

@@ -1,0 +1,28 @@
+.plans {
+   margin-bottom: 150px;
+   &__inner {
+      text-align: center;
+   }
+   &__title {
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 51px;
+      color: #414141;
+      text-align: center;
+   }
+   &__wrapper{      
+         display: flex;
+      }
+   &__item {}
+}
+
+.plans__item {
+}
+.plans__item-title {
+}
+.plans__item-price {
+}
+.plans__item-text {
+}
+.button {
+}
