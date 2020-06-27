@@ -28,6 +28,10 @@ body {
    font-size: 16px;
    color: #6c6c6c;
 }
+img {
+   max-width: 100%;
+   height: auto;
+}
 .container {
    width: 1180px;
    margin: 0 auto;
@@ -35,4 +39,5 @@ body {
 
 @import 'blocks/header.scss';
 @import 'blocks/form.scss';
+@import 'blocks/promo.scss';
 @import 'blocks/button.scss';

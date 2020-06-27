@@ -1,0 +1,55 @@
+.promo {
+   margin-top: 130px;
+   margin-bottom: 130px;
+   &__inner {
+      display: flex;
+      position: relative;
+   }
+   &__content {
+      padding-right: 90px;
+   }
+   &__title {
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 51px;
+      color: #414141;
+
+      margin-bottom: 60px;
+   }
+   &__subtitle {
+      color: #414141;
+      font-size: 18px;
+      font-weight: 700;
+   
+      margin-bottom: 14px;
+   }
+   &__text {
+      line-height: 28px;
+   
+      margin-bottom: 29px;
+      &:last-child {
+         margin-bottom: 0;
+      }
+   }
+   &__video img {
+      width: 100%;
+      height: auto;
+   }
+   &__cards {
+      display: flex;
+      border-top: 1px solid #e2e2e2;
+      padding-top: 100px;
+      margin-top: 100px;
+   }
+   &__item {
+      text-align: center;
+   }
+   &__item-icon{
+      margin-bottom: 20px;
+   }
+}
+.promo__content, .promo__video {
+   flex-basis: 50%;
+}
+
+
