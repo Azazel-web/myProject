@@ -18,9 +18,15 @@
    clip: rect(0 0 0 0);
    overflow: hidden;
 }
+*,
+*::before,
+*::after {
+   box-sizing: border-box;
+}
 body {
    font-family: Lato;
    font-size: 16px;
+   color: #6c6c6c;
 }
 .container {
    width: 1180px;
@@ -28,3 +34,5 @@ body {
 }
 
 @import 'blocks/header.scss';
+@import 'blocks/form.scss';
+@import 'blocks/button.scss';
