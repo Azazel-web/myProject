@@ -2,6 +2,7 @@
 @import 'var.scss';
 @import 'fonts.scss';
 
+
 .visually-hidden:not(:active):not(:focus){
    position: absolute;
 
@@ -17,22 +18,13 @@
    clip: rect(0 0 0 0);
    overflow: hidden;
 }
-
-.wrapper{
+body {
+   font-family: Lato;
+   font-size: 16px;
+}
+.container {
+   width: 1180px;
    margin: 0 auto;
 }
-.accardion{
-   margin-bottom: 10px;
-}
-.accardion__title{
-   border: 1px solid black;
-}
-.accardion__content {
-   border: 1px solid black;
-   border-top: none;
-   height: 100px;
-   display: none;
-   background-color: #ccc;
-   padding: 15px;
-}
 
+@import 'blocks/header.scss';
