@@ -22,11 +22,13 @@
                      with
                      lots
                      of custom pages and useful features</div>
-                  <div class="header__form form">
-                     <div class="form__input"><input type="text" placeholder="Your Name"></div>
-                     <div class="form__input"><input type="text" placeholder="Your Email"></div>
-                     <button class="form__button button" type="button">Get started</button>
-                  </div>
+                  <form action="">
+                     <div class="header__form form">
+                        <div class="form__input"><input type="text" placeholder="Your Name"></div>
+                        <div class="form__input"><input type="text" placeholder="Your Email"></div>
+                        <button class="form__button button" type="button">Get started</button>
+                     </div>
+                  </form>
                </div><!-- ./header__content-wrapper -->
             </div> <!-- /.header__content -->
          </div><!-- /.header__inner -->
@@ -101,31 +103,69 @@
    <!-- Plans -->
    <div class="plans">
       <div class="container">
-         <div class="plans__inner">
-            <div class="plans__title">Choose your suitable plans</div>
-            <div class="description__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-               tempor
-               incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>
 
-            <div class="plans__wrapper">
-               <div class="plans__item">
-                  <div class="plans__item-title">FREE</div>
-                  <div class="plans__item-price">$0 /mo</div>
-                  <div class="description__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>
-                  <div class="button">Get Started</div>
-               </div>
-               <div class="plans__item">
-                  <div class="plans__item-title">PREMIUM</div>
-                  <div class="plans__item-price">$39 /mo</div>
-                  <div class="description__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>
-                  <div class="button">Get Started</div>
-               </div>
-            </div><!-- /.plans__wrapper -->
-         </div>
+         <div class="plans__title">Choose your suitable plans</div>
+         <div class="plans__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>
+
+         <div class="plans__wrapper">
+            <div class="plans__item active">
+               <div class="plans__item-title">FREE</div>
+               <div class="plans__item-price"><span>$0</span> /mo</div>
+               <div class="plans__item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>
+               <a href="#" class="button">Get Started</a>
+            </div>
+            <div class="plans__item">
+               <div class="plans__item-title">PREMIUM</div>
+               <div class="plans__item-price"><span>$39</span> /mo</div>
+               <div class="plans__item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>
+               <a href="#" class="button button--active">Get Started</a>
+            </div>
+         </div><!-- /.plans__wrapper -->
+
       </div><!-- /.container -->
    </div><!-- /.plans -->
+   <!-- Free -->
+   <div class="free">
+      <div class="container">
+         <div class="free__title">It’s free, Get started today</div>
+         <div class="free__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>
+         <a class="button button--third">Get Started</a>
+      </div>
+   </div><!-- /.free -->
+
+   <!-- footer -->
+   <footer class="footer">
+      <div class="container">
+         <div class="footer__logo">Marketika</div>
+         <ul class="nav">
+            <li class="nav__link"><a href="#"> About Us </a></li>
+            <li class="nav__link nav__link--active"><a href="#"> Services </a></li>
+            <li class="nav__link"><a href="#"> FAQ </a></li>
+            <li class="nav__link"><a href="#"> Blog </a></li>
+            <li class="nav__link"><a href="#"> Contact us</a></li>
+         </ul>
+         <div class="footer__social social">
+            <a href="#" class="social__link"></a>
+            <a href="#" class="social__link"></a>
+            <a href="#" class="social__link"></a>
+            <a href="#" class="social__link"></a>
+            <a href="#" class="social__link"></a>
+         </div>
+         <div class="footer__copyrigth-and-links">
+            <div class="footer__copyrigth-and-links-copyright">Copyright © Sepra 2018 All Right Resereved</div>
+            <ul class="footer__copyrigth-and-links-links">
+               <li class="footer__links"><a href="#"> Privacy Policy </a></li>
+               <li class="footer__links"><a href="#"> Terms Of Services </a></li>
+               <li class="footer__links"><a href="#"> Security</a></li>
+            </ul>
+         </div>
+      </div>
+   </footer><!-- /.footer -->
    <script src="js/app.min.js"></script>
 </body>
 

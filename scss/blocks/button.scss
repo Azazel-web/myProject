@@ -2,10 +2,37 @@
    border: none;
    margin: 0;
    padding: 17px 50px;
-   background-image: linear-gradient(to right, #fe985b 0%, #fe4fa7 100%);
+   background: linear-gradient(to right, #fe985b 0%, #fe4fa7 100%);
    color: #ffffff;
    font-family: Montserrat;
    font-size: 18px;
    font-weight: 400;
    border-radius: 4px;
+   cursor: pointer;
+   outline: none;
+   text-decoration: none;
+   &:hover {
+      background: linear-gradient(to left, #fe985b 0%, #fe4fa7 100%);
+   }
+   &--active {
+      background: #ffffff;
+      color: black;
+      border: 1px solid #979797;
+      transition: linear .2s;
+      &:hover {
+         color: #fe4fa7;
+         border-color: #fe4fa7;
+         background: #ffffff;
+      }
+   }
+   &--third {
+      background: #ffffff;
+      border: none;
+      color: #464646;
+      &:hover {
+         color: #fe4fa7;
+         border-color: #fe985b;
+         background: #ffffff;
+      }
+   }
 }

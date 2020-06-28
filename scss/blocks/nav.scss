@@ -1,0 +1,24 @@
+.nav {
+   display: flex;
+   justify-content: center;
+   margin-bottom: 30px;
+   &__link {
+      line-height: 20px;
+      font-weight: 700;
+      font-size: 14px;
+      text-transform: uppercase;
+      transition: linear .2s;
+      & a {
+         color: #464646;
+      }
+      &--active, 
+      &:hover {
+         & a {
+            color: #fe50a6;
+         }
+      }
+      & + .nav__link {
+         margin-left: 60px;
+      }
+   }
+}

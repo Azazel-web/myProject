@@ -1,0 +1,39 @@
+.footer {
+   text-align: center;
+   padding: 90px 0;
+   &__logo {
+      font-size: 24px;
+      color: #464646;
+      font-weight: 700;
+      margin-bottom: 30px;
+   }
+   &__copyrigth-and-links {
+      display: flex;
+      justify-content: center;
+      font-size: 14px;
+      color: #464646;
+      &-links {
+         display: flex;
+      }
+   }
+   &__links {
+      padding-left: 30px;
+      & a {
+         color: #464646;
+      }
+      &:hover {
+         text-decoration: underline;
+      }
+   }
+}
+
+.footer__social {
+}
+.social {
+}
+.social__link {
+}
+.footer__copyrigth-and-links {
+}
+.footer__links {
+}

@@ -10,8 +10,13 @@
       background-color: rgba(255, 255, 255, .25);
       color: #ffffff;
       width: 100%;
+      transition: linear .2s;
       &::placeholder{
          color: #ffffff;
+      }
+      &:focus {
+         background-color: rgba(255, 255, 255, .5);
+         outline: none;
       }
    }
    }

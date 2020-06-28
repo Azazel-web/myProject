@@ -1,0 +1,18 @@
+.free {
+   background-image: linear-gradient(to right, #fe985b 0%, #fe4fa7 100%);
+   padding: 120px 0;
+   text-align: center;
+   color: #ffffff;
+   &__title {
+      font-size: 55px;
+      line-height: 60px;
+      font-weight: 700;
+   }
+   &__text {
+      width: 50%;
+      margin: 27px auto 40px;
+   
+      font-size: 20px;
+      line-height: 30px;
+   }
+}
