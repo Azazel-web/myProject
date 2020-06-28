@@ -2,8 +2,7 @@
    display: flex;
    &__input{
       flex-grow: 1;
-      padding-right: 40px;
-      & input{
+      & input {
       padding: 17px 0 17px 20px;
       border: none;
       margin: 0;
@@ -19,5 +18,16 @@
          outline: none;
       }
    }
+   }
+   @media (max-width: $screen-xs-max) {
+      flex-direction: column;
+      &__input {
+         padding-bottom: 10px;
+      }
+   }
+   @media (min-width: $screen-sm) {
+      &__input {
+         padding-right: 40px;
+      }
    }
 }

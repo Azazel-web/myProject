@@ -15,4 +15,14 @@
       font-size: 20px;
       line-height: 30px;
    }
+   @media (max-width: $screen-md-max) {
+      padding: 60px 0;
+      &__title {
+         font-size: 45px;
+      }
+      &__text {
+         font-size: 16px;
+         margin: 15px auto 30px;
+      }
+   }
 }

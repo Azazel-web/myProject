@@ -39,10 +39,6 @@
       padding-top: 100px;
       margin-top: 100px;
    }
-   &__item {
-      text-align: center;
-      margin-left: 40px;
-   }
    &__item-icon{
       margin-bottom: 20px;
    }
@@ -61,6 +57,26 @@
    @media (min-width: $screen-md) {
       &__content {
          padding-right: 90px;
+      }
+   }
+   @media (max-width: $screen-xs-max) {
+      padding-top: 60px;
+      padding-bottom: 60px;      
+      &__cards {
+         flex-direction: column;
+         padding-top: 50px;
+         margin-top: 50px;
+      }
+      &__item {
+         padding-bottom: 20px;
+         text-align: center;
+      }
+
+   }
+   @media (min-width: $screen-sm) {
+      &__item {
+         text-align: center;
+         margin-left: 40px;
       }
    }
 }

@@ -1,16 +1,10 @@
 .plans {
-   padding-bottom: 120px;
-   padding-top: 120px;
    text-align: center;
    &__title {
       font-size: 36px;
       font-weight: 700;
       line-height: 51px;
       color: #414141;
-   }
-   &__text {
-      width: 50%;
-      margin: 0 auto 80px;
    }
    &__wrapper{    
          display: flex;
@@ -41,6 +35,24 @@
          color: #fe4fa7;
          font-size: 72px;
          font-weight: 700;
+      }
+   }
+   @media (max-width: $screen-xs-max) {
+      padding-bottom: 60px;
+      padding-top: 60px;
+      &__wrapper{    
+         flex-direction: column;
+      }
+      &__text {
+         padding-bottom: 10px;
+      }
+   }
+   @media (min-width: $screen-sm) {
+      padding-bottom: 120px;
+      padding-top: 120px;
+      &__text {
+         width: 50%;
+         margin: 0 auto 80px;
       }
    }
 }
