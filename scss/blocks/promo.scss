@@ -13,9 +13,7 @@
       display: flex;
       position: relative;
    }
-   &__content {
-      padding-right: 90px;
-   }
+
    &__title {
       font-size: 32px;
       font-weight: 700;
@@ -47,6 +45,23 @@
    }
    &__item-icon{
       margin-bottom: 20px;
+   }
+   @media (max-width: $screen-sm-max) {
+      &__inner {
+         flex-direction: column;
+      }
+      &__video {
+         order: -1;
+         padding-bottom: 20px;
+      }
+      &__title {
+         margin-bottom: 20px;
+      }
+   }
+   @media (min-width: $screen-md) {
+      &__content {
+         padding-right: 90px;
+      }
    }
 }
 .promo__content, .promo__video {
